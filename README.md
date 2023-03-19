@@ -13,4 +13,4 @@ The Apache Kafka instance is configured to start with a single topic called `exa
 
 In one consumer group, each partition will be processed by one consumer only. If the number of consumers is less than the number of topic partitions, then multiple partitions will be assigned to one of the consumers in the group. If the number of consumers is, however, higher than the number of topic partitions, then one consumer might not get any messages at all.
 
-This is why this example demonstrates the use of two consumers at the same time.
+This is example demonstrates the use of two consumers at the same time.
